@@ -1,0 +1,32 @@
+{
+  "name": "XMGFMMain",
+  "version": "0.1.0",
+  "summary": "XMGFMMain.",
+  "description": "Detail description of the pod here.",
+  "homepage": "https://github.com/Better-me3/XMGFMMain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Better-me3": "zhang@aia.com"
+  },
+  "source": {
+    "git": "https://github.com/Better-me3/XMGFMMain.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XMGFMMain/Classes/**/*",
+  "resource_bundles": {
+    "XMGFMMain": [
+      "XMGFMMain/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "XMGFMBase/Category": [
+
+    ]
+  }
+}

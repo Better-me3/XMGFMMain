@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		312F18F4CD403F01249F1125 /* Pods_XMGFMMain_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9DE044A5E313AF8681FD8B /* Pods_XMGFMMain_Tests.framework */; };
+		5F2365D71FEC123900B91096 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2365D41FEC123900B91096 /* TestVC.m */; };
+		5F2365D81FEC123900B91096 /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2365D61FEC123900B91096 /* TestVC2.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,7 +43,11 @@
 		3C9DE044A5E313AF8681FD8B /* Pods_XMGFMMain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMGFMMain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4016AD85F08926E4B131CF /* Pods-XMGFMMain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMGFMMain_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMGFMMain_Tests/Pods-XMGFMMain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		47C2350B45D032542EDA77FB /* Pods-XMGFMMain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMGFMMain_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMGFMMain_Example/Pods-XMGFMMain_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		58CCA82611E50693FF4D5968 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		58CCA82611E50693FF4D5968 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5F2365D31FEC123900B91096 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		5F2365D41FEC123900B91096 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		5F2365D51FEC123900B91096 /* TestVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
+		5F2365D61FEC123900B91096 /* TestVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC2.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XMGFMMain_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMGFMMain_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +68,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7191DE988450852224A4C1FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7191DE988450852224A4C1FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89DD9EB8D3986520EB3EF8BD /* XMGFMMain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XMGFMMain.podspec; path = ../XMGFMMain.podspec; sourceTree = "<group>"; };
+		89DD9EB8D3986520EB3EF8BD /* XMGFMMain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMGFMMain.podspec; path = ../XMGFMMain.podspec; sourceTree = "<group>"; };
 		C656EA938AFA1E5C6BE76C16 /* Pods-XMGFMMain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMGFMMain_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMGFMMain_Tests/Pods-XMGFMMain_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EAA8565F565F0CC0302DFC44 /* Pods-XMGFMMain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMGFMMain_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMGFMMain_Example/Pods-XMGFMMain_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +140,10 @@
 			children = (
 				6003F59C195388D20070C39A /* ZHAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZHAppDelegate.m */,
+				5F2365D31FEC123900B91096 /* TestVC.h */,
+				5F2365D41FEC123900B91096 /* TestVC.m */,
+				5F2365D51FEC123900B91096 /* TestVC2.h */,
+				5F2365D61FEC123900B91096 /* TestVC2.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZHViewController.h */,
 				6003F5A6195388D20070C39A /* ZHViewController.m */,
@@ -385,10 +395,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XMGFMMain_Example/Pods-XMGFMMain_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XMGFMBase/XMGFMBase.framework",
 				"${BUILT_PRODUCTS_DIR}/XMGFMMain/XMGFMMain.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMGFMBase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMGFMMain.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +415,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2365D81FEC123900B91096 /* TestVC2.m in Sources */,
+				5F2365D71FEC123900B91096 /* TestVC.m in Sources */,
 				6003F59E195388D20070C39A /* ZHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
